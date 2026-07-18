@@ -28,6 +28,9 @@ openssl enc -d -aes-256-cbc -pbkdf2 -in git-crypt.key.enc -out git-crypt.key
 # 2) разлочить репозиторий этим ключом
 git-crypt unlock git-crypt.key
 
+# 2.1) залочить репозиторий этим ключом из корня проекта
+git-crypt lock
+
 # 3) удалить расшифрованный ключ — он больше не нужен и не должен попасть в git
 rm git-crypt.key
 ```
