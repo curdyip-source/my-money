@@ -1,0 +1,14 @@
+# --- git-crypt ---
+# Сырой (незашифрованный) симметричный ключ git-crypt.
+# Никогда не коммитим его как есть — только openssl-зашифрованную версию.
+secrets/git-crypt.key
+
+# macOS
+.DS_Store
+
+# Xcode / Swift
+xcuserdata/
+*.xcuserstate
+DerivedData/
+build/
+.swiftpm/

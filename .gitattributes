@@ -1,0 +1,2 @@
+# Шифруем всю папку docs через git-crypt.
+docs/** filter=git-crypt diff=git-crypt
