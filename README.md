@@ -34,8 +34,8 @@ MyMoney-swift/
     Views/      — экраны и формы
     Helpers/    — расчёты баланса/сводки, валюты, вёрстка
     ContentView.swift — корневой экран с пейджером и таб-баром
-docs/           — проектные заметки (зашифрованы через git-crypt)
-secrets/        — зашифрованный ключ git-crypt
+.docs/          — проектные заметки (зашифрованы через git-crypt)
+.secrets/       — зашифрованный ключ git-crypt
 ```
 
 ## Сборка и запуск
@@ -54,5 +54,5 @@ xcodebuild -project MyMoney-swift/MyMoney-swift.xcodeproj \
 
 ## Зашифрованные документы
 
-Папка `docs/` зашифрована через **git-crypt**. Чтобы получить к ней доступ,
+Папка `.docs/` зашифрована через **git-crypt**. Чтобы получить к ней доступ,
 следуйте инструкции в [`SECRETS.md`](SECRETS.md).
